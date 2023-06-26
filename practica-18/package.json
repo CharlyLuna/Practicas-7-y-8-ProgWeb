@@ -1,0 +1,26 @@
+{
+  "name": "practica-18-progweb",
+  "version": "1.0.0",
+  "description": "Esta es la practica 18 de la materia de programación web. Aquí se trabaja con el paquete mongoose para para conectarse de forma exitosa a una base de datos creada con el servicio de \"MongoDB Atlas\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlyLuna/Practica-18-ProgWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlyLuna/Practica-18-ProgWeb/issues"
+  },
+  "homepage": "https://github.com/CharlyLuna/Practica-18-ProgWeb#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}

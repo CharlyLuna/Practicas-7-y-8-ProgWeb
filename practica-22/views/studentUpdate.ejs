@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UpdateStudent</title>
+  </head>
+  <body>
+    <h1>Actualizar estudiante</h1>
+    <!--Y en el metodo ponemos la operacion que vamos a hacer, en este caso un Post-->
+    <form action="/updateStudent" method="POST">
+      <label for="fname">First name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        value="<%=`${student.firstName}`%>"
+      /><br /><br />
+      <label for="lname">Last name:</label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        value="<%=`${student.lastName}`%>"
+      /><br /><br />
+      <label for="age">Age:</label>
+      <input
+        type="text"
+        id="age"
+        name="age"
+        value="<%=`${student.age}`%>"
+      /><br /><br />
+      <label for="blood">Type of blood:</label>
+      <input
+        type="text"
+        id="blood"
+        name="blood"
+        value="<%=`${student.blood}`%>"
+      /><br /><br />
+      <label for="nss">NSS:</label>
+      <input
+        type="text"
+        id="nss"
+        name="nss"
+        value="<%=`${student.nss}`%>"
+      /><br /><br />
+      <label for="objID">ID:</label>
+      <input
+        type="text"
+        id="objID"
+        name="objID"
+        value="<%=`${student._id}`%>"
+      /><br /><br />
+      <input type="submit" type="submit" />
+    </form>
+
+    <a href="./main">Back</a>
+  </body>
+</html>

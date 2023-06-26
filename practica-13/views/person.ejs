@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <link href="/assets/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <ul>
+      <!--Creamos la condicion if para comprobar el valor del numero que nos llega y si es par devolvemos la lista con los items que dicen: es par-->
+      <% if(NUMERO % 2 == 0) { %> <% for(let i = 0; i < NUMERO * 2; i++) { %>
+      <!--Devolvemos items que digan "es par"-->
+      <li>Es par</li>
+      <% } %> <% } else { %> <% for(let i = 0; i < NUMERO; i++) { %>
+      <!--Devolvemos items que digan "es impar"-->
+      <li>Es impar</li>
+      <% } %> <% } %>
+      <!--Cuando es impar en el loop solo ponemos para que se realice el numero de veces que indica el numero que tenemos sin multiplicarlo por 2 -->
+    </ul>
+  </body>
+</html>

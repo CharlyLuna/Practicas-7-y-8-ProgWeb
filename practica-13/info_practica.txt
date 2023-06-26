@@ -1,0 +1,4 @@
+En esta practica se modifico la vista person para que cuando recibiera un numero, si este era par
+devolviera en una lista desordenada items que dijeran "es par", la cantidad de items es definida por 
+el numero que nos llegó multiplicado por 2, y en caso de ser impar simplemente se mostraban la cantidad
+de items equivalentes a ese numero impar que dijeran: "es impar".
