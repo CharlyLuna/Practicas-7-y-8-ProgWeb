@@ -1,3 +1,3 @@
-# Practica-21-ProgWeb
+# Practica-22-ProgWeb
 
-Esta es la practica 21 de la materia de programación web, en esta se busca poder mostrar de una forma mas limpia los datos almacenados en nuestra BD.
+Esta es la practica 22 de la materia de programación web.
